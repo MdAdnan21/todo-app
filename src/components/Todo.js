@@ -39,6 +39,7 @@ const Todo = () => {
             return todo;
         });
 
+        
         setTodos(updatedTodos);
         setEditMode(false);
         setEditId(null);
